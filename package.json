@@ -1,6 +1,6 @@
 {
   "name": "all-in-throttle-out-queue",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Queue that accept all the inputs and batch the result to output them on a regular interval of time",
   "keywords": [
     "node",
