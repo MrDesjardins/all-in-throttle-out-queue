@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671642762307,
+  "lastUpdate": 1671643031424,
   "repoUrl": "https://github.com/MrDesjardins/all-in-throttle-out-queue",
   "entries": {
     "Benchmark": [
@@ -124,6 +124,37 @@ window.BENCHMARK_DATA = {
             "range": "±0.10%",
             "unit": "ops/sec",
             "extra": "80 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrdesjardins@gmail.com",
+            "name": "Patrick",
+            "username": "MrDesjardins"
+          },
+          "committer": {
+            "email": "mrdesjardins@gmail.com",
+            "name": "Patrick",
+            "username": "MrDesjardins"
+          },
+          "distinct": true,
+          "id": "cbf12fb181720459d7b3eae8ef3c5f02765fee25",
+          "message": "Update readme",
+          "timestamp": "2022-12-21T09:16:18-08:00",
+          "tree_id": "593785bb9443a13c8c43772ffb06a8ed03407045",
+          "url": "https://github.com/MrDesjardins/all-in-throttle-out-queue/commit/cbf12fb181720459d7b3eae8ef3c5f02765fee25"
+        },
+        "date": 1671643030764,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "addMessageIntoBuffer Small Message",
+            "value": 98.08,
+            "range": "±0.21%",
+            "unit": "ops/sec",
+            "extra": "77 samples"
           }
         ]
       }
