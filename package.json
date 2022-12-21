@@ -1,0 +1,57 @@
+{
+  "name": "all-in-throttle-out-queue",
+  "version": "0.0.1",
+  "description": "Queue that accept all the inputs and batch the result to output them on a regular interval of time",
+  "keywords": [
+    "node",
+    "rate limit",
+    "queue",
+    "throttle",
+    "throttled"
+  ],
+  "main": "dist/lib/cjs/index.js",
+  "module": "dist/lib/es/index.js",
+  "types": "dist/lib/es/index.d.ts",
+  "scripts": {
+    "build": "npm run build:es && npm run build:commonjs",
+    "build:es": "npx tsc --project tsconfig.json",
+    "build:commonjs": "npx tsc --project tsconfig.commonjs.json",
+    "test": "npx jest",
+    "test:watch": "npx jest --watchAll",
+    "test:coverage": "npx jest --coverage",
+    "test:coveralls": "npx jest --coverage --coverageReporters=text-lcov | coveralls",
+    "benchmarks": "ts-node --project tsconfig.benchmarks.json benchmarks/benchmarks.ts",
+    "benchmarks:output": "npm run benchmarks | tee output.txt",
+    "prettier": "npx prettier -w **/*.ts",
+    "lint": "npx eslint . --ext .ts"
+  },
+  "author": "Patrick Desjardins",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrDesjardins/all-in-throttle-out-queue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MrDesjardins/all-in-throttle-out-queue.git/issues"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "benchmark": "^2.1.4",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4",
+    "ts-jest": "^29.0.3",
+    "@types/jest": "^29.2.4"
+  },
+  "devDependencies": {
+    "@types/benchmark": "^2.1.2"
+  }
+}
