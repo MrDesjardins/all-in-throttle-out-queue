@@ -1,4 +1,4 @@
-[![Build, Test and Coverage](https://github.com/MrDesjardins/all-in-throttle-out-queue/actions/workflows/action.yml/badge.svg)](https://github.com/MrDesjardins/all-in-throttle-out-queue/actions/workflows/action.yml)
+[![Build, Test and Coverage](https://github.com/MrDesjardins/all-in-throttle-out-queue/actions/workflows/action.yml/badge.svg?branch=master)](https://github.com/MrDesjardins/all-in-throttle-out-queue/actions/workflows/action.yml)
 [![codecov](https://codecov.io/gh/MrDesjardins/all-in-throttle-out-queue/branch/master/graph/badge.svg?token=0HGGX9Z9OW)](https://codecov.io/gh/MrDesjardins/all-in-throttle-out-queue)
 [![](https://img.shields.io/badge/Benchmark-%E2%9C%85-brightgreen)](https://mrdesjardins.github.io/all-in-throttle-out-queue/dev/bench/)
 ![ESNext Target](https://img.shields.io/badge/Target-ESNEXT-brightgreen.svg?style=plastic)
