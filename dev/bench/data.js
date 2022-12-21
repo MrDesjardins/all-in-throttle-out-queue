@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671585018801,
+  "lastUpdate": 1671642762307,
   "repoUrl": "https://github.com/MrDesjardins/all-in-throttle-out-queue",
   "entries": {
     "Benchmark": [
@@ -93,6 +93,37 @@ window.BENCHMARK_DATA = {
             "range": "±0.12%",
             "unit": "ops/sec",
             "extra": "84 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrdesjardins@gmail.com",
+            "name": "Patrick",
+            "username": "MrDesjardins"
+          },
+          "committer": {
+            "email": "mrdesjardins@gmail.com",
+            "name": "Patrick",
+            "username": "MrDesjardins"
+          },
+          "distinct": true,
+          "id": "badceda4463f041c91ef2ea976725727f8fa9707",
+          "message": "Use tsup for smaller bundle",
+          "timestamp": "2022-12-21T09:11:53-08:00",
+          "tree_id": "96b5cd93c72510057eb39f5b7a258d1a3bd3feb0",
+          "url": "https://github.com/MrDesjardins/all-in-throttle-out-queue/commit/badceda4463f041c91ef2ea976725727f8fa9707"
+        },
+        "date": 1671642761592,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "addMessageIntoBuffer Small Message",
+            "value": 98.75,
+            "range": "±0.10%",
+            "unit": "ops/sec",
+            "extra": "80 samples"
           }
         ]
       }
