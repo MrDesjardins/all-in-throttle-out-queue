@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671584162058,
+  "lastUpdate": 1671585018801,
   "repoUrl": "https://github.com/MrDesjardins/all-in-throttle-out-queue",
   "entries": {
     "Benchmark": [
@@ -62,6 +62,37 @@ window.BENCHMARK_DATA = {
             "range": "±0.19%",
             "unit": "ops/sec",
             "extra": "81 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mrdesjardins@gmail.com",
+            "name": "Patrick",
+            "username": "MrDesjardins"
+          },
+          "committer": {
+            "email": "mrdesjardins@gmail.com",
+            "name": "Patrick",
+            "username": "MrDesjardins"
+          },
+          "distinct": true,
+          "id": "10e81ceb6287a3c6aafdc74cb4be244c5ba9607c",
+          "message": "Update to v2 for codecov",
+          "timestamp": "2022-12-20T17:09:25-08:00",
+          "tree_id": "5b61a3d54f553e95ea54f583868fd98b58e0fb01",
+          "url": "https://github.com/MrDesjardins/all-in-throttle-out-queue/commit/10e81ceb6287a3c6aafdc74cb4be244c5ba9607c"
+        },
+        "date": 1671585017847,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "addMessageIntoBuffer Small Message",
+            "value": 98.65,
+            "range": "±0.12%",
+            "unit": "ops/sec",
+            "extra": "84 samples"
           }
         ]
       }
